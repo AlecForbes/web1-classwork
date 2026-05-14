@@ -5,9 +5,15 @@
 <textarea>Please google {html}</textarea>
 <button class="btn">Google</button>
 </div>
+
+<Card name="Web 1"></Card>
+<Card name="Web 2"></Card>
+<Card></Card>
+
 <footer>This is the footer</footer>
 
 <script>
+    import Card from "$lib/components/Card.svelte";
     let html='Google';
 </script>
 

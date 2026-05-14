@@ -1,6 +1,6 @@
 <script>
-    let name='Alec';
-
+    let {name = "Web 1"} = $props()
+    
 </script>
 
 <div></div>
@@ -9,6 +9,5 @@
 <style>
     p{
         color:hotpink;
-
     }
 </style>
