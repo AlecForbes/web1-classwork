@@ -15,8 +15,13 @@
 
 <script>
     import Card from "$lib/components/Card.svelte";
-    import img1 from "src\lib\images\photo-1778017825902-5d212f5ce532.avif"
+    import img1 from "$lib/images/photo-1778017825902-5d212f5ce532.avif";
     let html='Google';
+
+    let card1 = {
+        name: "Web1",
+        image: img1
+    }
 </script>
 
 <style>

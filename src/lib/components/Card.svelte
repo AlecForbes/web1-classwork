@@ -1,6 +1,7 @@
 <script>
     let {name = "Web 1", image="https://placehold.co/100", hobby="Guitar"} = $props()
 
+
 </script>
 
 <div>
