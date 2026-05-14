@@ -1,16 +1,16 @@
 <script>
-    let {name = "Web 1"} = $props()
+    let {name = "Web 1", image="https://placehold.co/100", hobby="Guitar"} = $props()
 
 </script>
 
 <div>
-    <img src="https://placehold.co/100" alt="placeholder">
+    <img src="{image}" alt="placeholder">
         <aside>
             <h3>{name}</h3>
             <ul>
-                <li>{Hobby 1}</li>
-                <li>{Hobby 2}</li>
-                <li>{Hobby 3}</li>
+                <li>{hobby}</li>
+                <li></li>
+                <li></li>
             </ul>
         </aside>
 </div>
@@ -29,4 +29,7 @@ div{
     max-width: 400px;
 }
 
+img{
+    width:300px;
+}
 </style>

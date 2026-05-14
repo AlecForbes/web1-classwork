@@ -6,7 +6,7 @@
 <button class="btn">Google</button>
 </div>
 
-<Card name="Web 1"></Card>
+<Card name={"Web 1"} image={img1}></Card>
 <Card name="Web 2"></Card>
 <Card name="Web 3"></Card>
 <Card name="Web 4"></Card>
@@ -15,6 +15,7 @@
 
 <script>
     import Card from "$lib/components/Card.svelte";
+    import img1 from "src\lib\images\photo-1778017825902-5d212f5ce532.avif"
     let html='Google';
 </script>
 
@@ -38,4 +39,5 @@
         position: inherit;
         margin-top: 200px;
     }
+
 </style>
