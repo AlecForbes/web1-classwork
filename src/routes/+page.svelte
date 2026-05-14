@@ -8,7 +8,8 @@
 
 <Card name="Web 1"></Card>
 <Card name="Web 2"></Card>
-<Card></Card>
+<Card name="Web 3"></Card>
+<Card name="Web 4"></Card>
 
 <footer>This is the footer</footer>
 
